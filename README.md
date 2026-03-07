@@ -1,2 +1,2 @@
-# CQ11
-Es el Quiz opcional CQ11 hecho por Matheo Tarazona
+# QUIZES HECHOS POR MATHEO TARAZONA
+PAGUINA DE QZ MIOS :D
