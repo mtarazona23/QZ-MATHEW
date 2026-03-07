@@ -1,0 +1,22 @@
+import random
+
+list = ["piedra", "papel", "tijeras"]
+print("Bienvenido a piedra, papel o tijeras")
+print("Tendras que escoger una de las tres y jugaras con el bot")
+print("1 - piedra")
+print("2 - papel")
+print("3 - tijeras")
+ppt = int(input("Elige una opcion de las tres: "))
+ppt = list[ppt - 1]
+print("Tu eleccion fue :" + ppt)
+bot = random.randint(1, 3)
+bot = list[bot - 1]
+print("respuesta del bot :" + bot)
+print("El resultado de este juego fue :")
+if ppt == bot:
+    print("Empate")
+elif (ppt == "piedra" and bot == "tijeras") or (ppt == "papel" and bot == "piedra") or (
+        ppt == "tijeras" and bot == "papel"):
+    print("VICTORIA, felicidades")
+else:
+    print("Derrota, mas suerte para la proxima")
